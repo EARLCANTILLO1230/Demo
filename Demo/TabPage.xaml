@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Demo.TabPage"
+            Title="Tab Demo">
+
+    <ContentPage Title="Tab 1">
+        <VerticalStackLayout>
+            <Label Text="This is Tab 1!" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" 
+                   Margin="0,50,0,0"/>
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Tab 2">
+        <VerticalStackLayout>
+            <Label Text="This is Tab 2!" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" 
+                   Margin="0,50,0,0"/>
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Tab 3">
+        <VerticalStackLayout>
+            <Label Text="This is Tab 3!" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" 
+                   Margin="0,50,0,0"/>
+        </VerticalStackLayout>
+    </ContentPage>
+
+</TabbedPage>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Demo.SimpleHamburgerPage">
+
+    <!-- The hamburger menu -->
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu">
+            <VerticalStackLayout Padding="20">
+                <Label Text="Menu" 
+                       FontSize="20" 
+                       Margin="0,20,0,20"/>
+
+                <Button Text="Page 1" 
+                        Clicked="OnPage1Clicked" 
+                        Margin="0,5"/>
+
+                <Button Text="Page 2" 
+                        Clicked="OnPage2Clicked" 
+                        Margin="0,5"/>
+
+                <Button Text="Page 3" 
+                        Clicked="OnPage3Clicked" 
+                        Margin="0,5"/>
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+    <!-- The main content -->
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage Title="Flyout Demo">
+                    <VerticalStackLayout>
+                        <Label Text="Flyout Demo" 
+                               FontSize="24"
+                               HorizontalOptions="Center" 
+                               Margin="0,50,0,0"/>
+                        <Label Text="Use the menu to navigate to pages" 
+                               HorizontalOptions="Center" 
+                               Margin="0,20,0,0"/>
+                    </VerticalStackLayout>
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.MainMenuPage"
+             Title="Navigation Demo">
+    <VerticalStackLayout>
+        <Label Text="Navigation Demo Menu" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               FontSize="24"
+               Margin="0,50,0,30"/>
+
+        <Button Text="Regular Pages (Navigation Pages" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                Clicked="RegularPages_Clicked" 
+                Margin="0,10,0,0"/>
+
+        <Button Text="Tab Pages Demo" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                Clicked="TabPages_Clicked" 
+                Margin="0,10,0,0"/>
+
+        <Button Text="Flyout Pages Demo" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                Clicked="FlyoutPages_Clicked" 
+                Margin="0,10,0,0"/>
+    </VerticalStackLayout>
+</ContentPage>
