@@ -3,7 +3,6 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Demo.SimpleHamburgerPage">
 
-    <!-- The hamburger menu -->
     <FlyoutPage.Flyout>
         <ContentPage Title="Menu">
             <VerticalStackLayout Padding="20">
@@ -25,8 +24,7 @@
             </VerticalStackLayout>
         </ContentPage>
     </FlyoutPage.Flyout>
-
-    <!-- The main content -->
+    
     <FlyoutPage.Detail>
         <NavigationPage>
             <x:Arguments>

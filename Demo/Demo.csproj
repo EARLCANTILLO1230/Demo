@@ -63,13 +63,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="SimpleHamburgerPage.xaml.cs">
-	    <DependentUpon>SimpleHamburgerPage.xaml</DependentUpon>
+	  <Compile Update="FlyoutPage.xaml.cs">
+	    <DependentUpon>FlyoutPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="SimpleHamburgerPage.xaml">
+	  <MauiXaml Update="FlyoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MainMenuPage.xaml">
